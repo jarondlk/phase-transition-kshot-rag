@@ -25,7 +25,7 @@ which orchestrates the full workflow: loading CIFAR-10, embedding with CLIP, bui
 
 ---
 
-## 🔧 1. Requirements
+## 1. Requirements
 
 ### **Hardware**
 
@@ -111,7 +111,7 @@ macOS (MPS) users may optionally install nightly PyTorch builds.
 
 ---
 
-## 📦 2. Directory Structure
+## 2. Directory Structure
 
 Example suggested structure:
 
@@ -127,7 +127,7 @@ No manual dataset download needed.
 
 ---
 
-## 🚀 3. Running the Experiment
+## 3. Running the Experiment
 
 Inside Python:
 
@@ -164,7 +164,7 @@ And finally returns:
 
 ---
 
-## 📊 4. Output
+## 4. Output
 
 You will see a plot like:
 
@@ -189,7 +189,7 @@ The `results` dictionary looks like:
 
 ---
 
-## 🧱 5. Implementation Notes
+## 5. Implementation Notes
 
 * Support sets are formed using **nested k-shot pools** per class
 * CLIP features are **L2-normalized** before insertion into Milvus
@@ -200,7 +200,7 @@ The `results` dictionary looks like:
 
 ---
 
-## 🧪 6. Reproducibility
+## 6. Reproducibility
 
 The function sets:
 
@@ -212,7 +212,7 @@ so results are deterministic for a given `seed`.
 
 ---
 
-## 🧩 7. Troubleshooting
+## 7. Troubleshooting
 
 ### **Milvus connection error**
 
